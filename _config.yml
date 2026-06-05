@@ -1,0 +1,7 @@
+title: My Security Engineering Portfolio
+description: Welcome to my official portfolio. Check out my projects below!
+theme: jekyll-theme-minimal
+
+# Activates the native GitHub data engine
+plugins:
+  - jekyll-github-metadata
