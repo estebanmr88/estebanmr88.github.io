@@ -18,7 +18,7 @@ layout: default
 
 <div class="project-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; padding-top: 20px;">
   
-  {% for repo in site.github.public_repositories %}
+  {% for repo in site.repositories %}
     <!-- This checks to make sure we don't accidentally list this portfolio website as a standalone project -->
     {% unless repo.name == site.github.repository_name %}
       <div class="project-card" style="border: 1px solid #e1e4e8; border-radius: 6px; padding: 20px; background: #fff; box-shadow: 0 1px 3px rgba(0,0,0,0.05); display: flex; flex-direction: column; justify-content: space-between;">
